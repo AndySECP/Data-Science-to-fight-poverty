@@ -9,3 +9,15 @@ Source: sites.ischool.berkeley.edu/bdd/
 
 Website of the class: https://sites.ischool.berkeley.edu/bdd/
 Github of the teacher: https://github.com/jblumenstock
+
+## Papers on Data Science & Poverty
+
+### Combining satellite imagery and machine learning to predict poverty - 2016
+
+The **goal** here is to estimate consuption expenditure and asset wealth using satellitee imagery.
+**Tool** used: CNN
+**Result**: the model can explain up to 75% of variation in local-level economic outcomes
+**Value**: it makes it easier to target efforts to tackle poverty
+
+Let start with the **problem**. Currently, lot of countries in the developping world have only few data available regarding economic development. This harm the ability to target intervention and effort to identify the needs in a particular place. In addition, it is hard to scale up the traditional data collection methods. 
+
