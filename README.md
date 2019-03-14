@@ -21,3 +21,9 @@ The **goal** here is to estimate consuption expenditure and asset wealth using s
 
 Let start with the **problem**. Currently, lot of countries in the developping world have only few data available regarding economic development. This harm the ability to target intervention and effort to identify the needs in a particular place. In addition, it is hard to scale up the traditional data collection methods. 
 
+One solution is to use passively collected data, from Mobile Phone, Stallite imagery or social media. In this paper, the idea is to leverages luminosity at night in satellite imagery to estimate the economic activity. Yet, in some impoverished areas, luminosity level can me quite low and therefore has few variability. In addition we don't have a lot of labeled data available. One solution to this problem is to use Transfer Learning. 
+
+The steps are:
+1. Using a CNN pretrained on ImageNet
+2. Fine tune the model to predict nighttime light intensities
+3. Train a Ridge regression to estimate cluster level expenditure or asset (using survey + images features from the model)
