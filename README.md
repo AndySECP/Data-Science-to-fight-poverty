@@ -27,3 +27,11 @@ The steps are:
 1. Using a CNN pretrained on ImageNet
 2. Fine tune the model to predict nighttime light intensities
 3. Train a Ridge regression to estimate cluster level expenditure or asset (using survey + images features from the model)
+
+In the paper, the model is able to detect:
+- Urban areas 
+- Roads
+- Agricultural areas
+This was done in an unsupervised way. Finally, the model can explain 37% to 55% of the variation in average household consumption. 
+
+Another interesting value of this approach is that model appear to "travel well". Indeed, model trained on one country can still give relevant information on a different country, where it would have seen no data. This is particularly valuable for countries with no data available.
