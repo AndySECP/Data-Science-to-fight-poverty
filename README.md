@@ -10,6 +10,8 @@ Source: sites.ischool.berkeley.edu/bdd/
 Website of the class: https://sites.ischool.berkeley.edu/bdd/
 Github of the teacher: https://github.com/jblumenstock
 
+Related article: https://www.clubic.com/technologies-d-avenir/intelligence-artificielle/actualite-854056-facebook-cree-densite-population-afrique-aide-ia.html
+
 ## Papers on Data Science & Poverty
 
 ### Combining satellite imagery and machine learning to predict poverty - 2016
