@@ -43,6 +43,6 @@ Another interesting value of this approach is that model appear to **"travel wel
 
 ### Facebook is working on mapping Africa's population density 
 
-Facebook is also actually trying to tackle the challenge of optimizing the humanitarian help alocation. To do so, they are using a Neural Network training on more than one million images. Then, they analysed 11.5 millions of satellite images in Africa to map people residence place. Those Computer Visions insights has been combined with some other gathered informations such as census data. Finally, they identified 110 millions homes and found out several inhabited areas. 
+Facebook is also actually trying to tackle the challenge of optimizing the humanitarian help alocation. To do so, they are using a Neural Network training on more than one million images. Then, they analysed 11.5 millions of satellite images in Africa to map people residence places. Those Computer Visions insights has been combined with some other gathered informations such as census data. Finally, they identified 110 millions homes and found out several inhabited areas. 
 
 The end goal of this analysis is to help humanitarians organization when they have to choose where to concentrate there ressources. The information should enable to locate places and populations that are particularly in need and require closer attention. 
