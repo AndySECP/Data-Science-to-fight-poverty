@@ -37,3 +37,12 @@ In the paper, the model is able to detect:
 This was done in an unsupervised way. Finally, the model can **explain 37% to 55% of the variation in average household consumption**. 
 
 Another interesting value of this approach is that model appear to **"travel well"**. Indeed, model trained on one country can still give relevant information on a different country, where it would have seen no data. This is particularly valuable for countries with no data available.
+
+
+## Current trends
+
+### Facebook is working on mapping Africa's population density 
+
+Facebook is also actually trying to tackle the challenge of optimizing the humanitarian help alocation. To do so, they are using a Neural Network training on more than one million images. Then, they analysed 11.5 millions of satellite images in Africa to map people residence place. Those Computer Visions insights has been combined with some other gathered informations such as census data. Finally, they identified 110 millions homes and found out several inhabited areas. 
+
+The end goal of this analysis is to help humanitarians organization when they have to choose where to concentrate there ressources. The information should enable to locate places and populations that are particularly in need and require closer attention. 
