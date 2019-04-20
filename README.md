@@ -39,6 +39,26 @@ This was done in an unsupervised way. Finally, the model can **explain 37% to 55
 Another interesting value of this approach is that model appear to **"travel well"**. Indeed, model trained on one country can still give relevant information on a different country, where it would have seen no data. This is particularly valuable for countries with no data available.
 
 
+## Tile2Vec: Unsupervised representation learning for spatially distributed data
+
+**Problem**: find techniques to mitigate the need for labeled data
+The idea from this paper is to define a low-dimensional representation of the data that is more suitable for downstream ML tasks. 
+
+**Goal**: to define an unsupervised representation learning algorithm that can learn semantically meaningful representation of satellite image data. This aim at improving the performance of classification tasks. This extend the notion of word2vec that assume that words appearing in identical context will have similar meaning. This is a feature extraction method that can be compared to other methods such as PCA or Autoencoders. 
+
+The **assuptions** used are that tiles that are neighbors from a geographic point of view , should have similar semantics and therefore similar representations. An **analogy** is built here with the Word2Vec representation where we assume that word appearing in the same context are likely to have similar semantics. In our case, the context is defined a distance in the geophafic space. 
+
+**Main task**: learn a mapping from images tiles to low-dimensional embeddings. To do so, a CNN is trained on triplets of tiles: on anchor tile ta, a neighbor tile tn (close geographically) and a distant tile td that is far away. The optimization task then minimizes the euclidean distance between the embedding of the anchor tile and the neighbor tile, while maximizing the distance between the anchor and the distant embeddings.  
+
+This method is used on both sensing imageries and countries characteristics in order to predict poverty. 
+
+**Applications**:
+- land cover classification task: predicting what is on the earth surface using remotely sensed imagery. 
+- regression task: predicting local poverty level using surveys data. The survey are used as label for poverty prediction task (next -).
+- predict anual consuption expenditures from satellite imagery. 
+
+Tile2Vec can learn representations at multiple scales that are sufficiently robust to use domain adaptation or transfer learning. 
+
 ## Current trends
 
 ### Facebook is working on mapping Africa's population density 
